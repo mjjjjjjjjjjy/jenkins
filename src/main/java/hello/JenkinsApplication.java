@@ -19,4 +19,10 @@ public class JenkinsApplication {
 	public String getMsg(){
 		return "hello jenkins";
 	}
+	
+	@GetMapping("/hello")
+	@ResponseBody
+	public String getMsg2(){
+		return "hello jenkins2";
+	}
 }
